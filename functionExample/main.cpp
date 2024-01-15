@@ -4,6 +4,11 @@
  * Funktio kertoo molemmat luvut kahdella ja tulostaa summan.
  * Tulosta myös alkuperäiset luvut. */
 
+/*  kirjoita funktio kuten edellä, mutta funktion on
+ *  tuplattava alkuperäisten muuttujien arvot. Nyt
+ *  funktiossa on otettava vastaan muuttujien osoitteet
+ *  funktion kutsussa argumentteina annetaan osoitteet (&x ja &y). */
+
 using namespace std;
 void doubleNumbers1 (int x, int y);
 void doubleNumbers2(int *x, int *y);
